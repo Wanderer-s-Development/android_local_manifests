@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="wanderer-dev" fetch="https://github.com/Wanderer-s-Development" />
+
+    <!-- Clover Hardware Interfaces (The Clover Project) -->
+    <remove-project name="hardware_clover_interfaces" optional="true" />
+    <project path="hardware/clover/interfaces" name="hardware_clover_interfaces" remote="wanderer-dev" revision="17" />
+</manifest>

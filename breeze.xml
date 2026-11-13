@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="wanderer-dev" fetch="https://github.com/Wanderer-s-Development" />
-    <remote name="wanderer-priv" fetch="ssh://git@github.com/Wanderer-s-Development" />
     <remote name="github" fetch="https://github.com" />
 
     <!-- Xiaomi breeze Device, Kernel, Vendor and Hardware HALs -->
@@ -10,11 +9,4 @@
     <project path="vendor/xiaomi/breeze" name="vendor_xiaomi_breeze" remote="wanderer-dev" revision="lineage-23.2" />
     <project path="vendor/xiaomi/breeze-camera" name="xiaomi_breeze_camera" remote="wanderer-dev" revision="main" />
     <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-24.0" />
-
-    <!-- Private Release Signing Keys (Project Infinity-X) -->
-    <project path="vendor/infinity-priv/keys" name="infinityx_vendor_infinity_keys" remote="wanderer-priv" revision="main" />
-
-    <!-- Clover Hardware Interfaces (optional for other ROMs) -->
-    <remove-project name="hardware_clover_interfaces" optional="true" />
-    <project path="hardware/clover/interfaces" name="hardware_clover_interfaces" remote="wanderer-dev" revision="17" />
 </manifest>
