@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="wanderer-dev" fetch="https://github.com/Wanderer-s-Development" />
-    <remote name="github" fetch="https://github.com" />
 
     <!-- Xiaomi breeze Device, Kernel, Vendor and Hardware HALs -->
     <project path="device/xiaomi/breeze" name="device_xiaomi_breeze" remote="wanderer-dev" revision="lineage-24.0" />
